@@ -1,0 +1,29 @@
+/* add your CSS here */
+.card-container {
+  width: 300px;
+  padding: 0 15px 15px;
+  border: 1px solid #d2d2d2;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(210,210,210,1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(210,210,210,1);
+  box-shadow: 10px 10px 5px 0px rgba(210,210,210,1);
+}
+.fact {
+  font-style: italic;
+}
+.list-item {
+  list-style: none;
+}
+.list-label {
+  font-weight: bold;
+}
+.list-container {
+  margin:0;
+  padding: 0;
+}
+.fact-container {
+  border: 1px solid #d2d2d2;
+  padding: 0 10px 0;
+}
+.card-image {
+  border: 1px solid #d2d2d2;
+}
