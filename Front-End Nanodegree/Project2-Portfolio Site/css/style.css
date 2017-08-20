@@ -1,0 +1,64 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#header-container {
+    margin: 10px auto;
+    border-bottom: 4px solid #7d97ad;
+}
+
+h2 {
+    color: #7d97ad;
+}
+
+.logo-container {
+    height: 90px;
+    background: url('/img/profile.jpg');
+    width: 90px;
+    background-size: 120px;
+    border-radius: 50%;
+    margin: 5px 0 5px 0;
+}
+
+.name-container {
+    text-align: right;
+    text-transform: uppercase;
+}
+
+section {
+    margin-top: 20px;
+}
+
+.image-container img {
+    border: 1px solid #d2d2d2;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.name-container h1 {
+    font-weight: 100;
+}
+
+.image-heading {
+    text-transform: uppercase;
+}
+
+.link-container {
+    word-wrap: break-word;
+}
+
+.base-text {
+    text-align: center;
+}
+
+@media screen and (max-width:767px) {
+    .logo-container {
+        margin: 0 auto;
+    }
+    
+    .name-container {
+        text-align: center;
+    }
+}
